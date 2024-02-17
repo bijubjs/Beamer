@@ -1,0 +1,278 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Bijesh Mishra              %
+% License: GNU General Public License v3.0 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{beamer}
+%The full list of themes is:: AnnArbor, Antibes, Bergen, Berkeley, Berlin, CambridgeUS, Copenhagen, Darmstadt, Dresden, Frankfurt,  Goettingen, Hannover, Ilmenau, JuanLesPins,  Luebeck, Madrid, Malmoe, Marburg, Montpellier, PaloAlto, Pittsburgh, Rochester, Singapore, Szeged, Warsaw, boxes, default
+\usetheme{Singapore} % Use this with different color fot this presentation.
+\usefonttheme[]{serif}
+%\usetheme{Dresden} % I like this. Similar to Ilmenau. Szeged
+%\usetheme{Copenhagen}
+%\usetheme{Warsaw} % Same as Luebeck, Malmoe
+% The full list of color themes is: default, albatross, beaver, beetle, crane, dolphin, dove, fly, lily, orchid, rose, seagull, seahorse, whale, wolverine
+%\usecolortheme{}
+\usecolortheme{dolphin} % with  Dresden.
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{anyfontsize}
+\usepackage{tcolorbox}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\newcommand{\RowColor}{\rowcolor{gray!60}}
+\usepackage{adjustbox}
+\usepackage{tikzsymbols}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{fontawesome5}
+\usepackage{comment}
+
+\lstset
+{
+	language={[LaTeX]TeX},
+	frame=single,
+	framesep=\fboxsep,
+	framerule=\fboxrule,
+	rulecolor=\color{black},
+	xleftmargin=\dimexpr\fboxsep+\fboxrule,
+	xrightmargin=\dimexpr\fboxsep+\fboxrule,
+	breaklines=true,
+	basicstyle=\small\tt,
+	keywordstyle=\color{blue}\sf,
+	commentstyle=\color{purple!100},
+	backgroundcolor=\color{gray!10},
+	tabsize=2,
+	columns=flexible,
+}
+
+\graphicspath{ {./Images/} }
+\usenavigationsymbolstemplate{}
+\title{\bf Avoiding Plagiarism in Research}
+%\subtitle{Conference}
+\author{\bf Bijesh Mishra, Ph.D.}
+\institute{\color{blue}
+{\color{blue}\href{https://bijeshmishra.wordpress.com/}{\faIcon{wordpress} https://bijeshmishra.wordpress.com}} \\
+\smallskip
+{\color{blue}\href{https://twitter.com/bijubjs}{\faIcon{twitter} @bijubjs}}
+{\color{blue}\href{https://www.facebook.com/BMishraPhD}{\faIcon{facebook} Dr. Bijesh Mishra}} 
+{\color{blue}\href{https://www.linkedin.com/in/bijubjs/}{\faIcon{linkedin} @bijubjs}} \\
+\smallskip
+\faIcon{envelope} bzm0094@auburn.edu; bjs.misra@gmail.com \\
+\vspace{0.5 cm}
+Auburn University \\
+%\faIcon{map-marker-alt}
+Auburn, AL\\
+\vspace{0.25cm}} 
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{frame} %[plain]
+	{\frame{\titlepage}} 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%	\section[Table of Contents]{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Table of Contents}
+	\tableofcontents
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+\section{Plagiarism:}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{What is Plagiarism?}
+	\begin{frame}{What is Plagiarism?}
+%		 \tableofcontents[currentsection]
+	\begin{itemize}
+		\item {\color{blue}\href{https://ossja.ucdavis.edu/avoiding-plagiarism-mastering-art-scholarship}{Office of Student Support and Judicial Affairs, UC DAVIS: }} \textquotedblleft Plagiarism is using another's \underline{\textbf{works}} without giving \underline{\textbf{credit}}.\textquotedblright \\
+		\vspace{0.25 cm}
+		\item {\color{blue}\href{https://sites.auburn.edu/admin/universitypolicies/Policies/AcademicHonestyCode.pdf}{Auburn University (2019) Student Academic Honesty Code: }} Plagiarism is \textquotedblleft using words or ideas of another as one's own (page 100).\textquotedblright \\ 
+		\vspace{0.25 cm}
+		\item The U.S. Federal Definition from {\color{blue}\href{https://ori.hhs.gov/content/chapter-2-research-misconduct-office-science-and-technology-policy}{US Department of Health \& Human Service (HHS), The Office of Science and Technology Policy (OSTP):}} \textquotedblleft Plagiarism is the appropriation of another person’s ideas, processes, results, or words without giving appropriate credit.\textquotedblright \\
+		\end{itemize}
+	\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{When Plagiarism Occurs?}
+\begin{frame}{When Plagiarism Occurs?}
+		Two Common ways:
+		\begin{itemize}
+		\item Improper use of someone else's \textbf{works} or  \textbf{ideas}:
+			\begin{itemize}
+				\item Misappropriating published or unpublished works fully or partially.
+				\smallskip
+				\item Misappropriating concepts, ideas, theories, texts, image, data, etc.
+			\end{itemize}
+		
+		\vspace{0.10 cm}
+		\item Improper use of someone else's words.
+			\begin{itemize}
+				\item Using source information too closely when \textbf{paraphrasing}.
+				\smallskip
+				\item Use original content by substituting/shuffling words and \textbf{{cite}}.
+				\smallskip
+				\item Failing to enclose \textquotedblleft borrowed verbatim in quotation mark\textquotedblright.
+				\smallskip
+				\item Hiring someone to write your assignment, paper, thesis, etc.
+		\end{itemize}
+		\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Why Plagiarism Occurs?}
+\begin{frame}{Why Plagiarism Occurs?}
+	Two Potential Reasons:
+	\begin{itemize}
+		\item Conscious Avoidance:
+		\begin{itemize}
+			\item Creating false citation.
+			\item Use original content as it was with citation.
+			\item Paraphrased properly in own words without citation.
+		\end{itemize}
+		\smallskip
+		\item Unconscious Negligence:
+		\begin{itemize}
+			\item I know so everyone knows.
+			\item Forget to acknowledge or cite.
+		\end{itemize}
+	\end{itemize}
+	\textit{\textbf{\color{blue} Notes:}} \\
+	\begin{itemize}
+	\item Self-plagarism and text recycling might be taken as plagiarism.
+	\item Falsification and fabrications are also research misconducts.
+	\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Avoiding Plagiarism:}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{How to Avoid Plagiarism?}
+\begin{frame}{How to Avoid Plagiarism?}
+	\begin{itemize}
+	\item Summarize, paraphrase, and cite.
+	\smallskip
+	\item Contact original idea/work generator and seek approval if needed.
+	\smallskip
+	\item Clearly and unambiguously differentiate your ideas/works from others.
+	\smallskip
+	\item Use {\color{gray}\textbf {common knowledge (?)}}.
+	\smallskip
+	\item Plagiarism Dilemma: \textbf{revise, rewrite,} and \textbf{cite}.	
+\end{itemize}
+\end{frame}
+
+\subsection{Common Knowledge:}
+\begin{frame}{What are \textquotedblleft Common Knowledge\textquotedblright?}
+	\begin{itemize}
+		\item Depends upon writer, reader, knowledge level, situation, events, consequence, relative field of work, etc.
+		\smallskip
+		\item Universal truth such as \textquotedblleft Sun rises from East.\textquotedblright
+		\smallskip
+		\item \textquotedblleft Alfred Marshall's Principle of Economics developed a supply-and-demand curve\textquotedblright \textbf{MAY BE} a common knowledge for \textbf{economics student} but \textbf{NOT} for \textbf{Palentobiology student}.
+		\smallskip
+		\item Find frequently used but uncited information (common knowledge) in established literature in your field and context.
+	\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Actions to Reduce Plagiarism:}
+\begin{frame}{Actions to Reduce Plagiarism:}
+	\begin{itemize}				
+		\item National Science Foundation (NSF) Office of the Inspector General (OIG) can subpoena if plagiarism is suspected {\color{blue}\href{https://pubmed.ncbi.nlm.nih.gov/31324124/}{(Kornfeld, 2019)}}.
+		\smallskip
+		\item NSF Grant recipient faculties (88\%) were twice more likely to be guilty of research misconduct to that from National Institute of Health (NIH) (42\%) {\color{blue}\href{https://pubmed.ncbi.nlm.nih.gov/31324124/}{(Kornfeld, 2019)}}.
+		\smallskip		
+		\item Five {\color{blue}\href{https://oig.nsf.gov/investigations/research-misconduct/by-the-numbers}{NSF}} grant recipients, out of 15 concluded investigations, were guilty of plagiarism from October 2021 to September 2022.
+		\smallskip
+		\item {\color{blue}\href{		https://www.govinfo.gov/content/pkg/FR-2022-03-17/pdf/2022-05659.pdf}{Research misconducts conducted in the United States of America (US) are publicly archived in US National Archive Federal Register Library}}.
+	\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Available Resources:}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{comment}
+\subsection{Resources in Nepal:}
+\begin{frame}{Resources in Nepal:}
+	\begin{itemize}
+		\item Very little, lack of clear guidelines, virtually no resources in Nepali language (Ironically, my presentation is in English!).
+		\item {\color{blue}\href{https://lawcommission.gov.np/en/}{Nepal Law Commission}}.
+		\smallskip
+		\item {\color{blue}\href{https://lawcommission.gov.np/en/?cat=373}{Copyright Act 2059 Bs (2002 AD)}}.
+		\smallskip 
+		\item {\color{blue} \href{http://www.nepalcopyright.gov.np/}{Nepal Copyright Registrar's Office, Government of Nepal}}.
+		\smallskip
+		\item {\color{blue} \href{https://www.nepjol.info/index.php/NJN/article/view/20516} {Roka, 2017. The recent trend of plagiarism in Nepal, \textit{Nepal Journal of Neuroscience}, 14(3)}}.
+		\item Use citation management tools such as {\color{blue}\href{https://www.mendeley.com/}{Mendeley}}, {\color{blue}\href{https://www.zotero.org/}{Zotero}}, and {\color{blue}\href{https://endnote.com/}{Endnotes}} for efficient writing. Mendeley and zotero are free to use and as good as any other paid software.
+	\end{itemize}
+\end{frame}
+%\end{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Auburn University:}
+\begin{frame}{Auburn University:}
+	\begin{itemize}
+	\item {\color{blue}\href{	https://sites.auburn.edu/admin/universitypolicies/Policies/AcademicHonestyCode.pdf}{Auburn Univeristy Title XII, Academic Honesty Code}}.
+	\vspace{0.2 cm}
+	\item {\color{blue}\href{https://cws.auburn.edu/OVPR/pm/compliance/home}{Office of Research Compliance}}.
+	\vspace{0.2 cm}
+	\item {\color{blue}\href{https://cws.auburn.edu/OVPR/pm/compliance/rcr/home}{AU Basic CITI Responsible Conduct of Research (RCR) Training}}.
+	\vspace{0.2 cm}
+	\item {\color{blue}\href{https://auburn.edu/academic/provost/university-writing/miller-writing-center/}{Miller Writing Center}}.
+	\vspace{0.2 cm}
+	\item {\color{blue}\href{https://libguides.auburn.edu/plagiarismseminar}{Plagiarism: some information you should know}}.
+	\vspace{0.2 cm}
+	\item Flow chart showing the types and severity of plagiarism violations: {\color{blue}\href{https://thevisualcommunicationguy.com/wp-content/uploads/2014/09/Infographic_Did-I-Plagiarize1.jpg}{Did I plagiarize?}}
+	\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Additional Resources:}
+\begin{frame}{Additional Resources:}
+\begin{itemize}
+	\item {\color{blue}\href{https://ori.hhs.gov/}{HHS, The Office of Research Integrity}}.
+	\smallskip
+	\item {\color{blue}\href{https://www.nsf.gov/od/ogc/regulation.jsp}{NSF Regulation of Reserach}}.
+	\smallskip
+	\item {\color{blue}\href{https://oir.nih.gov/sourcebook/ethical-conduct/responsible-conduct-research-training}{NIH Responsible Conduct of Research Training}}.
+	\smallskip
+	\item {\color{blue}\href{https://about.citiprogram.org/}{Collaborative Institutional Training Initiatives (CITI Program)}}.
+	\smallskip
+	\item Plagiarism checker such as {\color{blue}\href{https://www.turnitin.com/}{TurnItIn}}, {\color{blue}\href{https://app.grammarly.com/}{Grammerly}}, etc.
+	\smallskip
+	\item AI and plagiarism: {\color{blue}\href{https://doi.org/10.1007/s12195-022-00754-8}{King and ChatGPT (2023). A conversation on artificial intelligence, chatbots, and plagiarism in higher education.\textit{Cel. Mol. Bioeng.}}}
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Summary:}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Summary:}
+\begin{frame}{Summary:}
+	\begin{itemize}
+		\item Be creative.
+		\vspace{0.2 cm}
+		\item Give credit.
+		\vspace{0.2 cm}
+		\item Use common knowledge.
+		\vspace{0.2 cm}
+		\item Summarize, paraphrase, and cite.
+		\vspace{0.2 cm}
+		\item Revise, rewrite, and cite.	
+	\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
